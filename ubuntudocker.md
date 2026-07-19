@@ -5,7 +5,7 @@
 
 - ✅ Full Ubuntu latest image
 - ✅ Pre-installed essential tools (`curl`, `git`, `vim`, `htop`, `tree`, etc.)
-- ✅ Non-root `practiceuser` with sudo privileges (best security practice)
+- ✅ Non-root `satya` with sudo privileges (best security practice)
 - ✅ Works perfectly on **Windows + Docker Desktop**
 - ✅ One-command startup
 - ✅ Persistent practice (optional volume)
@@ -23,7 +23,7 @@
 # Pull the latest Ubuntu image
 docker pull ubuntu
 
-# Run the practice lab container
+# Run the practice(satyalab in my case) lab container
 docker run -it --name ubuntu-satyalab ubuntu
 
 Step-2 -: Inside the Container — First Time Setup (From root user you should install all below )
