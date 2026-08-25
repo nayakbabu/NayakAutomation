@@ -1,0 +1,10 @@
+[Unit]
+Description=Run health check every 5 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
