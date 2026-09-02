@@ -13,3 +13,18 @@ print(name)
 print(age)
 print(height)
 print(is_learning)
+
+text = "Python"
+number = 42
+decimal = 3.14
+answer = True
+
+print(text)
+print(number)
+print(decimal)
+print(answer)
+
+name = "Rakesh"
+age = 12
+
+print(name + " is " + str(age) + " Years old")
