@@ -28,3 +28,20 @@ name = "Rakesh"
 age = 12
 
 print(name + " is " + str(age) + " Years old")
+
+name = "Smita"
+age = 34
+
+print(name + " is " + str(age) + " Years Old ")
+print(name + "  " + str(age))
+
+name = input("What is your name? ")
+print("Nice to meet you, " + name + " !")
+
+name = input("What is your name please ?")
+print("Nice to meet you," + name + " Please come to interview hall")
+
+age = int(input("How old are you ?"))
+next_year_age = age + 1
+
+print("Next year you will be", next_year_age)
