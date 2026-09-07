@@ -17,3 +17,13 @@ def calculate_area(length, width):
 
 area = calculate_area(5, 4)
 print(area)
+
+#another practice for while true and break use case in Python 
+
+while True:
+    answer = input("Type 'quit' to stop: ")
+
+    if answer == "quit":
+        print("Goodbuy !")
+        break
+    print("You typed:", answer)
