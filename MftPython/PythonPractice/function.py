@@ -41,3 +41,10 @@ def company(name, location, function):
 print(company("Axway", "paris", "product developement"))
 print(company("IBM", "usa", "Consulting"))
 print(company("Google", "usa", "Search engine"))
+
+#practice another function for students lab
+
+def greet_user(name, role="Enginner"):
+    return f"Hello {name}, welcome onboard in {role}"
+print(greet_user("Nayak"))
+print(greet_user("Nayak", "devops enginner"))
