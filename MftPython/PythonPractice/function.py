@@ -21,3 +21,23 @@ def employees(name ,age):
     print("Employee age is " + age )
 employees("Satya", "35")
 employees("Smita", "32")
+
+
+#write another function
+
+def company (name, location, function):
+    print("Company name is " + name )
+    print("This is located in " + location)
+    print("The main function is " + function)
+
+company("Axway", "Paris", "Product develpement")
+company("IBM", "usa", "Consulting")
+company("Google", "usa", "Search engine")
+
+#now improve the above function with some industry standard function writing 
+
+def company(name, location, function):
+    return f"Company name is {name}, it is located in {location}, main function is {function}"
+print(company("Axway", "paris", "product developement"))
+print(company("IBM", "usa", "Consulting"))
+print(company("Google", "usa", "Search engine"))
