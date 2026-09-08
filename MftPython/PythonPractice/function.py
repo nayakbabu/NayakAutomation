@@ -13,3 +13,11 @@ def introduce(name, city):
     print("My name is " + name + ".")
     print("I live in " + city + ".")
 introduce("Nayak", "Sofia")
+
+#practice another function students 
+
+def employees(name ,age):
+    print("Employee name is " + name )
+    print("Employee age is " + age )
+employees("Satya", "35")
+employees("Smita", "32")
