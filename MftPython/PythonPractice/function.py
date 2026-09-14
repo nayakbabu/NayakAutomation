@@ -69,3 +69,10 @@ print(maximum(12 , 6))
 def reverse_word(word):
     return word[::-1]
 print(reverse_word("GITHUB"))
+
+
+# write a function to Count letters in a word
+
+def count_letters(text):
+    return len(text)
+print (count_letters("Satya"))
