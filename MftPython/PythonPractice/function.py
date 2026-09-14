@@ -76,3 +76,11 @@ print(reverse_word("GITHUB"))
 def count_letters(text):
     return len(text)
 print (count_letters("Satya"))
+
+#write a function for Repeat a word
+
+def repeat_word(word, times):
+    return word * times
+print(repeat_word("Nayak ", 3))
+
+
