@@ -54,3 +54,12 @@ print(greet_user("Nayak", "devops enginner"))
 def addition(x, y):
     return x + y
 print(addition(10, 5))
+
+#find maximum of two numbers via a function
+
+def maximum(a, b):
+    if a >b:
+        return a
+    else:
+        return b
+print(maximum(12 , 6))
