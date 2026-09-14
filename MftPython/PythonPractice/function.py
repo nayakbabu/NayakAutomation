@@ -48,3 +48,9 @@ def greet_user(name, role="Enginner"):
     return f"Hello {name}, welcome onboard in {role}"
 print(greet_user("Nayak"))
 print(greet_user("Nayak", "devops enginner"))
+
+#practice some more functions 
+
+def addition(x, y):
+    return x + y
+print(addition(10, 5))
