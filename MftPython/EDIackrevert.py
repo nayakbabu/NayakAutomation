@@ -23,7 +23,7 @@ ack.write("Records:" + str(record_count) + "\n")   #This turns the number 3 into
 ack.write("ReceivedAT=" + time_stamp + "\n")
 ack.close()
 
-print("ACK Created:", ack_file_name)
+print("ACK is Created:", ack_file_name)
 print("Status:", status)
 print("Time:", time_stamp)
 
